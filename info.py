@@ -15,10 +15,10 @@ def is_enabled(value, default):
 #main variables
 API_ID = int(environ.get('API_ID', ''))
 API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6165486744:AAFW3C6588558QbLWfRD_-ddGAWAfY')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7260503423:AAHeQK0SjwP-cWTdswa5MUHaKMXJb1MqYqk')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5397984467').split()]
-USERNAME = environ.get('USERNAME', "https://telegram.me/Leoentertainmentbot")
+USERNAME = environ.get('USERNAME', "http://t.me/God_Of_Filter_Bot")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-10019494867581'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+mjs1xYh3aXQ5YTI9')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001234567898').split()]
